@@ -1,0 +1,71 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "/assets/images/products/product1.jpg",
+      "brand": "Malva",
+      "title": "Camiseta básica algodón",
+      "price": 59900,
+      "tags": ["Nuevo", "Oferta"],
+      "discount": 20
+    },
+    {
+      "id": 2,
+      "image": "/assets/images/products/product2.jpg",
+      "brand": "Malva",
+      "title": "Pantalón jean slim fit",
+      "price": 129900,
+      "tags": ["Más vendido"]
+    },
+    {
+      "id": 3,
+      "image": "/assets/images/products/product3.jpg",
+      "brand": "Malva",
+      "title": "Vestido floral midi",
+      "price": 89900,
+      "tags": ["Nuevo"]
+    },
+    {
+      "id": 4,
+      "image": "/assets/images/products/product4.jpg",
+      "brand": "Malva",
+      "title": "Chaqueta denim",
+      "price": 159900,
+      "tags": ["Oferta"],
+      "discount": 15
+    },
+    {
+      "id": 5,
+      "image": "/assets/images/products/product5.jpg",
+      "brand": "Malva",
+      "title": "Zapatos casuales",
+      "price": 99900,
+      "tags": ["Nuevo"]
+    },
+    {
+      "id": 6,
+      "image": "/assets/images/products/product6.jpg",
+      "brand": "Malva",
+      "title": "Bolso bandolera",
+      "price": 79900,
+      "tags": ["Oferta"],
+      "discount": 10
+    },
+    {
+      "id": 7,
+      "image": "/assets/images/products/product7.jpg",
+      "brand": "Malva",
+      "title": "Gafas de sol",
+      "price": 49900,
+      "tags": ["Más vendido"]
+    },
+    {
+      "id": 8,
+      "image": "/assets/images/products/product8.jpg",
+      "brand": "Malva",
+      "title": "Gorra ajustable",
+      "price": 39900,
+      "tags": ["Nuevo"]
+    }
+  ]
+}

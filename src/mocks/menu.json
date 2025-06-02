@@ -1,0 +1,30 @@
+{
+  "categories": [
+    {
+      "name": "Hombre",
+      "subcategories": [
+        {
+          "name": "Ropa",
+          "items": ["Camisetas", "Pantalones", "Chaquetas"]
+        },
+        {
+          "name": "Zapatos",
+          "items": ["Deportivos", "Casuales", "Formales"]
+        }
+      ]
+    },
+    {
+      "name": "Mujer",
+      "subcategories": [
+        {
+          "name": "Ropa",
+          "items": ["Vestidos", "Blusas", "Faldas"]
+        },
+        {
+          "name": "Accesorios",
+          "items": ["Bolsos", "Joyeria", "Bufandas"]
+        }
+      ]
+    }
+  ]
+}
