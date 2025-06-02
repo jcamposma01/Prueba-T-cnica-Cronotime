@@ -1,0 +1,21 @@
+{
+  "sections": [
+    {
+      "title": "Síguenos",
+      "items": ["Instagram", "Facebook", "TikTok"]
+    },
+    {
+      "title": "Servicio al cliente",
+      "items": ["Contáctanos", "Preguntas frecuentes", "Cambios y devoluciones"]
+    },
+    {
+      "title": "Quiénes somos",
+      "items": ["Nuestra historia", "Trabaja con nosotros", "Blog"]
+    }
+  ],
+  "legal": [
+    "Política de tratamiento de datos",
+    "Términos y condiciones",
+    "SIC"
+  ]
+}

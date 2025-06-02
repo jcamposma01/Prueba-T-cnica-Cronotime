@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/malva-react-ecommerce/static/css/main.8fee82c4.css",
+    "main.js": "/malva-react-ecommerce/static/js/main.714b0baf.js",
+    "static/media/product.jpg": "/malva-react-ecommerce/static/media/product.fccf82881390c7d213bc.jpg",
+    "static/media/product4.jpg": "/malva-react-ecommerce/static/media/product4.e066d3830c62455b4a69.jpg",
+    "static/media/product5.jpg": "/malva-react-ecommerce/static/media/product5.8e148bc297c07d8b025a.jpg",
+    "static/media/banner-mobile.webp": "/malva-react-ecommerce/static/media/banner-mobile.47e9a5266ca90f448ce1.webp",
+    "static/media/product6.jpg": "/malva-react-ecommerce/static/media/product6.5c50af7a4b095281c9e4.jpg",
+    "static/media/banner-desktop.webp": "/malva-react-ecommerce/static/media/banner-desktop.40002973b9eae7383d4a.webp",
+    "static/media/product2.jpg": "/malva-react-ecommerce/static/media/product2.d515e3f05c6b0807f5c0.jpg",
+    "static/media/product1.jpg": "/malva-react-ecommerce/static/media/product1.c7179406424a6b1b4ca2.jpg",
+    "static/media/slick.svg": "/malva-react-ecommerce/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/malva-react-ecommerce/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/malva-react-ecommerce/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/malva-react-ecommerce/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/malva-react-ecommerce/index.html",
+    "main.8fee82c4.css.map": "/malva-react-ecommerce/static/css/main.8fee82c4.css.map",
+    "main.714b0baf.js.map": "/malva-react-ecommerce/static/js/main.714b0baf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fee82c4.css",
+    "static/js/main.714b0baf.js"
+  ]
+}

@@ -1,0 +1,190 @@
+/* Estructura principal */
+.header {
+  width: 100%;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.header--fixed {
+  position: fixed;
+  top: 0;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(0); }
+}
+
+/* Banner superior */
+.header__ribbon {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 0.85rem;
+}
+
+/* Contenedor principal - VERSIÓN DESKTOP */
+.header__main {
+  display: flex;
+  align-items: center;
+  padding: 15px 5%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Hamburguesa - solo visible en mobile */
+.header__hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+/* Logo a la izquierda */
+.header__logo {
+  margin-right: 2rem;
+}
+
+.header__logo img {
+  height: 40px;
+  width: auto;
+}
+
+/* Menú navegación (Hombre/Mujer) */
+.header__nav {
+  display: flex;
+  gap: 2rem;
+  margin-right: auto; /* Empuja los iconos a la derecha */
+}
+
+.header__nav-item {
+  position: relative;
+  list-style: none;
+}
+
+.header__nav-category {
+  background: none;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  color: #333;
+  transition: color 0.2s;
+}
+
+.header__nav-category:hover {
+  color: #e74c3c;
+}
+
+/* Submenú */
+.header__submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  min-width: 200px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.header__nav-item:hover .header__submenu {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Iconos derecha */
+.header__icons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header__icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.2s;
+}
+
+.header__icon:hover {
+  color: #e74c3c;
+}
+
+.header__cart {
+  position: relative;
+}
+
+.header__cart-count {
+  position: absolute;
+  top: -5px;
+  right: -8px;
+  background: #e74c3c;
+  color: white;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+}
+
+/* Overlay para móvil */
+.header__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 998;
+}
+
+/* VERSIÓN MOBILE */
+@media (max-width: 992px) {
+  .header__main {
+    padding: 15px 20px;
+  }
+  
+  .header__hamburger {
+    display: block;
+    order: 0;
+  }
+  
+  .header__logo {
+    order: 1;
+    margin-right: 1rem;
+  }
+  
+  .header__nav {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 80%;
+    height: 100vh;
+    background: white;
+    flex-direction: column;
+    padding: 80px 20px 20px;
+    transition: left 0.3s ease;
+    z-index: 999;
+    margin-right: 0;
+  }
+  
+  .header__nav--open {
+    left: 0;
+  }
+  
+  .header__icons {
+    order: 2;
+    margin-left: auto;
+  }
+}

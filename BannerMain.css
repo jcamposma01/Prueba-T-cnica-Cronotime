@@ -1,0 +1,93 @@
+/* Contenedor principal - Versión mejorada */
+.banner-main {
+  position: relative;
+  width: 100%;
+  height: 80vh; /* Más espacio para desktop */
+  max-height: 800px; /* Límite máximo */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Imagen - Ajustes para preservar relación de aspecto */
+.banner-main__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center; /* Enfoca el centro */
+  transition: opacity 0.3s ease;
+  will-change: transform; /* Optimización de rendimiento */
+}
+
+/* Contenido superpuesto - Mejor legibilidad */
+.banner-main__content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  max-width: 40%;
+  z-index: 2;
+  padding: 2rem;
+  background: rgba(0,0,0,0.4);
+  border-radius: 12px;
+}
+
+.banner-main__content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.banner-main__button {
+  padding: 0.8rem 2rem;
+  background: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.banner-main__button:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+/* Mobile (<= 768px) - Ajustes específicos */
+@media (max-width: 768px) {
+  .banner-main {
+    height: 60vh; /* Más altura para móviles */
+    max-height: none;
+  }
+
+  .banner-main__content {
+    max-width: 90%;
+    left: 5%;
+    right: 5%;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .banner-main__content h1 {
+    font-size: 1.8rem;
+  }
+  
+  .banner-main__image {
+    object-position: center top; /* Ajusta según necesidad */
+  }
+}
+
+/* Tablet (769px-1024px) - Ajustes intermedios */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .banner-main {
+    height: 70vh;
+  }
+  
+  .banner-main__content {
+    max-width: 60%;
+  }
+}
